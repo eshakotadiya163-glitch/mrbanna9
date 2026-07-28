@@ -1,4 +1,4 @@
-import logo from "@/assets/mrbanna-logo.png";
+import logo from "@/assets/eye-logo.jpg";
 import { MessageCircle, Youtube, Twitter, Instagram, Linkedin, Mail, Phone, MapPin, Send } from "lucide-react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger, DialogClose } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
@@ -14,7 +14,7 @@ export function Footer() {
           {/* Left Column - Brand & Socials */}
           <div className="md:col-span-2 space-y-6">
             <div className="flex items-center gap-3">
-              <img src={logo} alt="MrBaNNa" className="h-10 w-10" width={40} height={40} />
+              <img src={logo} alt="MrBaNNa" className="h-10 w-10 rounded-full" width={40} height={40} />
               <div className="font-display font-bold text-xl text-gradient-gold">MrBaNNa</div>
             </div>
             <p className="text-sm text-muted-foreground max-w-md leading-relaxed">

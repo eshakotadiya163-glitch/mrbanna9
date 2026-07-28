@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 
-import heroImg from "@/assets/hero-person.jpg";
+import heroImg from "@/assets/hero-burj.jpg";
 import { ArrowRight, Mouse } from "lucide-react";
 
 export function Hero() {
@@ -35,7 +35,7 @@ export function Hero() {
           <img
             src={heroImg}
             alt="MrBaNNa — founder & trader"
-            className="relative rounded-3xl w-full max-w-md mx-auto shadow-gold border border-primary/20"
+            className="relative rounded-3xl w-full max-w-sm mx-auto shadow-gold border border-primary/20"
             width={1024}
             height={1280}
           />

@@ -1,7 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
-import logo from "@/assets/mrbanna-logo.png";
+import logo from "@/assets/eye-logo.jpg";
 import { Menu, X } from "lucide-react";
 
 const nav = [
@@ -24,7 +24,7 @@ export function Header() {
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all ${scrolled ? "backdrop-blur-xl bg-background/70 border-b border-border" : ""}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2">
-          <img src={logo} alt="MrBaNNa" className="h-9 w-9" width={36} height={36} />
+          <img src={logo} alt="MrBaNNa" className="h-9 w-9 rounded-full" width={36} height={36} />
           <span className="font-display font-bold text-lg text-gradient-gold">MrBaNNa</span>
         </Link>
 
