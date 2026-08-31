@@ -5,7 +5,7 @@ import { Send, Youtube, Twitter, Instagram, MessageCircle } from "lucide-react";
 const socials = [
   { icon: Send, name: "Telegram", handle: "@OfficialMrBaNNa", desc: "Real-time trading signals & analysis", color: "from-sky-400 to-blue-600", url: "https://t.me/OfficialMrBaNNa", btnColor: "bg-blue-950/30 border-blue-900/50 hover:bg-blue-900/50 text-blue-200" },
   { icon: Youtube, name: "YouTube", handle: "@Mrbanna9", desc: "Educational content & market breakdowns", color: "from-red-500 to-rose-600", url: "https://www.youtube.com/@Mrbanna9", btnColor: "bg-red-950/30 border-red-900/50 hover:bg-red-900/50 text-red-200" },
-  { icon: Instagram, name: "Instagram", handle: "@parthbapu.official", desc: "Behind the scenes & lifestyle", color: "from-fuchsia-500 to-orange-500", url: "https://www.instagram.com/parthbapu.official?igsh=MTNocmJncmMyMjJoaQ==", btnColor: "bg-fuchsia-950/30 border-fuchsia-900/50 hover:bg-fuchsia-900/50 text-fuchsia-200" },
+  { icon: Instagram, name: "Instagram", handle: "@parthsuraniarc", desc: "Behind the scenes & lifestyle", color: "from-fuchsia-500 to-orange-500", url: "https://www.instagram.com/parthsuraniarc", btnColor: "bg-fuchsia-950/30 border-fuchsia-900/50 hover:bg-fuchsia-900/50 text-fuchsia-200" },
 ];
 
 const stats = [
